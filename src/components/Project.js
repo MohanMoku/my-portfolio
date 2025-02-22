@@ -11,6 +11,7 @@ const Project = () => {
     return (
         <div className='Project'>
             <div style={st}><Navbar /></div>
+            
         </div>
     )
 }

@@ -128,8 +128,189 @@
 }
 
 .About > .About-Content{
-    height: 65vh;
+    color: white;
+    height: 60vh;
     width: 60vw;
-    border: 2px solid rgb(255, 255, 255);
     margin: 4vh 0 0 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.About > .About-Content > h1:nth-of-type(1) {
+    font-size: 35px;
+}
+
+.About > .About-Content > hr{
+    width: 40%;
+    height: 8px;
+    border: 2px solid cyan;
+    background-color: cyan;
+}
+
+.About > .About-Content > p{
+    padding: 0 80px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.About > .About-Content > h1:nth-of-type(2) {
+    font-size: 25px;
+    align-self: normal;
+    padding: 0 80px;
+}
+.About > .About-Content > div{
+    align-self: normal;
+    padding: 0 80px;
+    display: flex;
+    gap: 25px;
+}
+
+.About > .About-Content > div > h3{
+    padding: 2px 15px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.About > .About-Content > div > h3:hover{
+    transform: scale(1.05);
+    color: cyan;
+    border: 2px solid cyan;
+}
+
+.Education > div1 {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    color: white;
+    margin: 0 20px;
+}
+.Education > div1 > h1{
+    font-size: 90px;
+    align-self: end;
+    margin-right: 15vw;
+    color: #ffffff00;
+    -webkit-text-stroke: 2px white;
+}
+
+.Education > div1 > div2{
+    margin-top: 20px;
+    padding: 0 30px;
+    display: flex;
+    width: 90vw;
+    height: 40vh;
+}
+
+.Education > div1 > div2 > div3{
+    padding: 30px;
+    width: 60%;
+}
+
+.Education > div1 > div2 > div3 > h1 {
+    font-size: 40px;
+    width: 60%;
+}
+
+.Education > div1 > div2 > div3 > hr {
+    width: 32%;
+    height: 8px;
+    margin: 10px 0;
+    border: 2px solid cyan;
+    background-color: cyan;
+}
+
+.Education > div1 > div2 > div3 > p{
+    width: 80%;
+    font-size: 20px;
+}
+
+.Education > div1 > div2 > div4{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 10px;
+}
+
+.Education > div1 > div2 > div4 > div5 > h1{
+    font-size: 30px;
+}
+.Education > div1 > div2 > div4 > div5 > h3{
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.Contact > div1{
+    color: #fff;
+    text-align: center;
+}
+
+.Contact > div1 > h1{
+    font-size: 40px;
+}
+
+.Contact > div1 > p{
+    font-weight: 600;
+    color: aqua;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.Contact > div2{
+    color: #fff;
+    width: 100vw;
+    padding: 80px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Contact > div2 > div3 > img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.Contact > div2 > div3{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contact > div2 > div3 > h2{
+    padding: 24px 0 10px 0;
+    font-size: 18px;
+}
+
+.Contact > div2 > div3 > p{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.Contact > div4{
+    text-align: center;
+    color: #fff;
+}
+
+.Contact > div4 > h1{
+    padding-top: 15px;
+    font-size: 80px;
+    color: #ffffff00;
+    font-stretch: extra-expanded;
+    -webkit-text-stroke: 2px white;
+}
+
+.email{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socialMedia{
+    width: 35px;
+    height: 35px;
 }
