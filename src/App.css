@@ -314,3 +314,49 @@
     width: 35px;
     height: 35px;
 }
+
+.Experience > div1 > div2{
+    display: flex;
+    position: relative;
+}
+.Experience > div1 > div2 > div5{
+    padding: 0 0 0 100px;
+    height: 100px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.Experience > div1 > div2 > div5 > hr{
+    height: 8px;
+    background-color: aqua;
+    border: 1px solid aqua;
+}
+.Experience > div1 > div2 >h1{
+    padding: 0 0 0 0;
+    position: absolute;
+    right: 30%;
+    bottom: 0.1px;
+    color: #ffffff00;
+    font-size: 120px;
+    -webkit-text-stroke: 2px #fff;
+}
+.Experience > div1 > div3{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Experience > div1 > div3 > div4{
+    display: flex;
+    color: #fff;
+    font-size: 1.8rem;
+    gap: 30px;
+}
+.Experience > div1 > div3 > div4 > div6{
+    width: 50%;
+    margin: 0 30px;
+}
+
+.P1inExp{
+    padding: 0 0 0 50px;
+}
